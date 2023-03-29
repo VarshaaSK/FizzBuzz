@@ -20,4 +20,18 @@ public class FizzBuzz {
         }
         return "Does not Match";
     }
+
+    public String multipleOfFive() {
+        if(number % 5 == 0){
+            return "Buzz";
+        }
+        return "Does not Match";
+    }
+
+    public String notMultipleOfAny() {
+        if(number % 3 != 0 && number % 5 != 0){
+            return Integer.toString(number);
+        }
+        return "Does not Match";
+    }
 }
