@@ -12,6 +12,12 @@ public class FizzBuzz {
         }
         return "Does not Match";
     }
-    
-    
+
+
+    public String multipleOfThree() {
+        if(number % 3 == 0){
+            return "Fizz";
+        }
+        return "Does not Match";
+    }
 }

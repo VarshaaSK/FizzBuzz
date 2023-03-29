@@ -20,5 +20,16 @@ public class FizzBuzzTest {
         assertEquals(expectedString , actualString);
     }
 
+    @Test
+    void toReturnFizz(){
 
+        ///Arrange
+        String expectedString = "Fizz";
+
+        //Act
+        String actualString = fizzbuzz.multipleOfThree();
+
+        //Assert
+        assertEquals(expectedString, actualString);
+    }
 }
